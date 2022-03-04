@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+.body{
+	background-color:#F2F2F2;
+	min-height:100vh;
+	overflow:hidden;
+	
+}
+
+.main{
+	background-color:#F2F2F2;
+	margin-top:60px;
+	
+}
+
+/*NAV BAR GENERAL SETTINGS*/
+.navbar{
+	height:60px;
+	position:fixed;
+	background-color:#5274D9;
+	width:100%;
+	align-items:center;
+	display:flex;
+	justify-content:space-between;
+}
+
+.navbar>div{
+	flex:1;
+	height:100%
+}
+
+
+/*Action SETTINGS*/
+.actions{
+	margin:auto;
+	display:flex;
+	align-items:center;
+}
+
+.actions>a {
+	display:block;
+	color:white;
+	margin:10px;
+}
+
+.actions>a:hover{
+	color:black;
+}
+
+
+
+
+/*User profile(far right) SETTINGS*/
+.usersection {
+	display:flex;
+	justify-content:flex-end;
+}
+
+
+
+.usernavpic{
+	height:100%;
+	width:70px;
+}
+
+.test:hover .usernavaction{display:block;}
+
+.usernavaction{
+	position:absolute;
+	background-color:white;
+	min-width:170px;
+	display:none;
+	right:1px;
+	top:60px;
+}
+
+.usernavaction>div{
+	border:1px solid black;
+	background-color:#5274D9;
+}

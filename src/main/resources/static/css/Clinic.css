@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+
+
+.thisBar{
+	background-color:#F2F2F2;
+	height:200px;
+	display:flex;
+	border-top:solid black;
+	border-bottom:solid black;
+}
+
+
+.thisBar>img{
+	height:100%;
+	width:15%;
+}
+
+
+.thisInfo{
+	padding:10px;
+	display:flex;
+	width:100%;
+}
+
+.thisInfo>div{
+	flex:1;
+	margin-left:5%;
+}
+
+
+.pageContent{
+	background-color:#5274D9;
+	display:flex;
+}
+
+
+.pageContent>div{
+	flex:1;
+	margin:2% 8%;
+	border:solid black;
+	height:64vh;
+	text-decoration:none;
+	background-color:#F2F2F2;
+}
+
+
+a {
+	text-decoration: none;
+}
+.redirect{
+	border-top:solid black;
+	height:10%;
+	text-align:center;
+	width:100%;
+}
+
+
+.container{
+	height:80%;
+}
+
+.contentHeader{
+	height:10%;
+	border-bottom:1px solid black;
+	text-align:center;
+}
+
+.entry{
+	border-top:1px solid red;
+	height:20%;
+	display:flex;
+	cursor:pointer;
+}
+
+
+.entryImg{
+	height:80px;
+	width:90px;
+	padding:10px;
+	border-radius:50%;
+}
+
+
+.entryContent{
+	height:100%;
+	width:100%;
+}
+
+.entryContent>div{
+	margin:10px;
+}
+
+/* MAYBE ANOTHER CSS FILE*/
+.modal{
+	display:none;
+	position:fixed;
+	z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	
+}
+
+#modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+  height:40%;
+}

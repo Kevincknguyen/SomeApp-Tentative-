@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+.allEntry{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+.entry{
+	border:solid #5274D9;
+	width:30%;
+	height:10em;
+	margin:20px;
+	display:flex;
+}
